@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesadelo nas profundezas </title>
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/projeto.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body class="pagina_azul">
+    <header>
+        <div class="segura_menu">
+            <div id="header_logo">
+                <a href="index.html">
+                    <img src="img/logo tcc.png" alt="skpf">
+                </a>
+            </div>
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="img/botao-de-menu.png" alt="Menu">
+                </a>
+                <div id="myLinks">
+                    <nav>
+                        <div class="item_menu">
+                            <a href="projeto.html">  
+                                O Projeto
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="personagens.html">
+                                Personagens
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="ler_online.html">
+                                Ler Online
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="como_usar_realidade_aumentada.html">
+                                Como usar realidade aumentada
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="menu">
+                <nav>
+                    <div class="item_menu">
+                        <a href="projeto.html">  
+                            O Projeto
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="personagens.html">
+                            Personagens
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="ler_online.html">
+                            Ler Online
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="como_usar_realidade_aumentada.html">
+                            Como usar realidade aumentada
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="main_projeto">
+        <section id="section_projeto">
+            <h1 class="titulo_pagina">O Projeto</h1>
+            <p>Foram realizados estudos e pesquisas em relação ao índice de interesse em leitura de quadrinhos no Brasil entre crianças e adolescentes de 8 a 12 anos. 
+            O  projeto tem como objetivo promover o incentivo da leitura por meio de um quadrinho nacional de história simples, de fácil compreensão, e de fácil acesso, 
+            uma vez que os principais fatores para os baixos índices de leitura atualmente são o difícil acesso e a falta de clareza na leitura.</p>
+            <p>Assim o grupo idealizou, através de um selo editorial, o lançamento de um quadrinho de autoria brasileira que cumprisse com os requisitos necessários para contribuir com a facilidade de leitura, organizando também um site e um evento para lançamento e divulgação da obra, aumentando o seu alcance.</p>
+            <p>As histórias em quadrinhos foram criadas em 1894 e desde então sofreu poucas alterações, apenas passou do processo manual para o impresso, onde suas primeiras impressões foram feitas em jornais e só em 1930 passaram a ter suas revistas independentes. E, com isso decidimos trazer um entretenimento 
+            a mais com a realidade aumentada, entregando uma experiência a mais além da leitura das HQS. Visando ser divertida e objetiva ao mesmo tempo. O quadrinho será disponibilizado na íntegra através do site online, tornando-o acessível a qualquer pessoa que possua acesso à internet. A versão física do quadrinho
+            será completamente direcionada aos consumidores que possuem a intenção de colecionar, caso tenham lido e gostado da história, e possuirá extras planejados exclusivamente para ela valorizando o produto. Foi planejado também material promocional para auxiliar no lançamento do produto e torná-lo mais atrativo
+            ao público.
+            </p>
+            <p>Finalizando o projeto, espera-se que o quadrinho tenha atraído a atenção do público e o feito enxergar que quadrinhos brasileiros possuem de fato um potencial e podem servir de incentivo a leitura, assim, espera-se também que através desse projeto a equipe obtenha condições de desenvolver projetos similares e de maior complexidade, visando abordar um público ainda maior.
+            </p>
+        </section>
+
+        <section id="section_box">
+            <h2>Box de colecionador</h2>
+            <div id="box_descricao">
+                <p>A edição de colecionador conta com diversos extras exclusivos para aqueles que gostaram da história e querem decorar a sua estante com ela!</p>
+            </div>
+
+            <div id="box_itens">
+                <div class="box_itens_item">
+                    <div class="box_item_titulo">
+                        Marca página 
+                    </div>
+                    <div class="box_item_imagem">
+                        <img src="img/marca_página.png" alt="Marca Página">
+                    </div>
+                    <div class="box_item_descricao">
+                        <p>Marca-página exclusivo da versão física. </p>
+                        <ul class="box_item_descricao_lista">
+                            <li>
+                                <p>Tamanho: 215x65mm</p>
+                            </li>
+                            <li>
+                                <p>Material: Papel Couché Fosco 250g</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box_itens_item">
+                    <div class="box_item_titulo">
+                        HQ
+                    </div>
+                    <div class="box_item_imagem">
+                        <img src="img/mockup.png" alt="Capa">
+                    </div>
+                    <div class="box_item_descricao">
+                        <p>O volume impresso conta com páginas extras exclusivas. </p>
+                        <ul class="box_item_descricao_lista">
+                            <li>
+                                <p>Tamanho: 210x 150</p>
+                            </li>
+                            <li>
+                                <p>Material: Papel Duplex </p>
+                            </li>
+                            <li>
+                                <p>21 páginas</p>
+                            </li>
+                            <li> 
+                                <p>Acabamento em lombada quadrada </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box_itens_item">
+                    <div class="box_item_titulo">
+                        Mapa
+                    </div>
+                    <div class="box_item_imagem">
+                        <img src="img/mapa.png" alt="Capa">
+                    </div>
+                    <div class="box_item_descricao">
+                        <p>Mapa exclusivo com realidade aumentada.</p>
+                        <ul class="box_item_descricao_lista">
+                            <li>
+                                <p>Tamanho: 478x328mm</p>
+                            </li>
+                            <li>
+                                <p>Material: Papel Couché 175g</p>
+                            </li>
+                            <li>
+                                <p>Impressão frente e verso</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="box_itens_item">
+                    <div class="box_item_titulo">
+                        Realidade aumentada
+                    </div>
+                    <div class="box_item_imagem card">
+                        <img src="img/r.a.jpg" alt="Capa">
+                    </div>
+                    <div class="box_item_descricao">
+                        <p>QRCODE que te direciona para a realidade aumentada. </p>
+                        <ul class="box_item_descricao_lista">
+                            <li>
+                                <p>Aplicativo: Meta Spark</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+        </section>
+    </main>
+    <footer id="footer_projeto">
+        <p>TRABALHO DESENVOLVIDO POR ALUNOS DO SENAI BARUERI - 2023</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,199 @@
+/*---------------------
+- Padrão
+---------------------*/
+:root {
+    --azul_padrao: #00A3E1;
+    --amarelo_padrao: #FDD500;
+    --azul_escuro: #004661;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: inherit; }
+
+html {
+    /* Define quanto é 1rem*/
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.7;
+    color: #000; 
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*---------------------
+- Header Desktop
+---------------------*/
+
+#header_logo {
+    height: 8rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    margin-left: .8rem;
+}
+
+#header_logo img{
+    height: 6rem;
+}
+
+
+/*---------------------
+- Menu Desktop
+---------------------*/
+#menu {
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    margin-right: .8rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.segura_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    height: 9rem;
+    z-index: 2;
+    margin-bottom: 5;
+}
+
+.item_menu {
+    text-decoration: none;
+    display: flex;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 10px 0px;
+} 
+
+.item_menu a{
+    font-weight: 400;
+    color: #ffffff;
+    display: flex;
+    flex-grow: 1;
+    margin: 0 1.5rem;
+    
+}
+
+.item_menu a:hover{
+    color: var(--azul_padrao);
+}
+
+/*---------------------
+- Main Desktop
+---------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.titulo_pagina {
+    margin: 6rem 0 3rem 0;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    padding: .5rem 2rem;
+    color: var(--amarelo_padrao);
+    font-size: 2rem;
+    border-bottom: .5rem solid var(--amarelo_padrao);
+}
+
+.info_text {
+    margin: 4rem 0 6rem 0;
+    color: #000;
+    font-size: 1.9rem;
+    width: 70%;
+}
+
+
+/*---------------------
+- Footer Desktop
+---------------------*/
+footer {
+    margin: 4rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.topnav {
+    display: none;
+}
+
+/*---------------------
+----- CSS TABLET ------
+---------------------*/
+
+/* 
+    ##Device = Tablets, Ipads
+    ##Screen = B/w 768px to 1024px
+*/
+
+  
+@media screen and (max-width: 800px) { 
+    /*---------------------
+    - Menu Talet
+    ---------------------*/
+    #menu {
+        display: none;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .topnav #myLinks {
+        display: none;
+    }
+
+    #myLinks nav {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 3rem;
+        margin-right: 8rem;
+        background-color: #efefef;
+        border-radius: 1rem;
+    }
+      
+    .topnav nav a {
+        text-decoration: none;
+    }
+      
+    .topnav a img {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 3rem;
+        margin-top: 3rem;
+        margin-right: 3rem;
+    }
+
+}

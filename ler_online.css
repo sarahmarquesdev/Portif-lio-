@@ -1,0 +1,107 @@
+.item_menu a{
+    color: #FFFFFF;
+}
+
+.item_menu a:hover{
+    color: var(--amarelo_padrao);
+}
+
+button {
+    background-color: var(--azul_padrao);
+    border: none;
+    color: #FFFFFF;
+    padding: .5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--amarelo_padrao);
+    color: #000000;
+}
+
+#footer_leitor_online_capitulo {
+    margin-top: 1rem;
+}
+
+#footer_leitor_online_capitulo p {
+    font-weight: bold;
+    padding: 1rem;
+    color: #FFFFFF;
+}
+
+main, #paginas_manga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo {
+    text-align: center;
+    padding: 3rem;
+    color: #FFFFFF;
+    
+}
+
+#titulo h1 {
+    font-weight: 300;
+}
+
+#paginas_manga {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+}
+
+#paginas_manga img {
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+.dupla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.dupla img {
+    width: 100% !important;
+    height: auto;
+}
+
+
+@media screen and (max-width: 800px) { 
+    /*---------------------
+    - Menu Talet
+    ---------------------*/
+    #myLinks nav {
+        background-color: var(--azul_padrao);
+    }
+
+
+    .item_menu a:hover{
+        color: var(--amarelo_padrao);
+    }
+
+    #titulo h1 {
+        font-size: 3.5rem; 
+    }
+    
+    #titulo p {
+        font-size: 2.5rem;
+    }
+
+    #paginas_manga {
+        width: 97%;
+    }
+
+    #paginas_manga img {
+        width: 85%;
+    }
+   
+}

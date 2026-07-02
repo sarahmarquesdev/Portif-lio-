@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pesadelo nas profundezas - Capítulo Um</title>
+	<!-- <link href="css/jquery.touchPDF.css" rel="stylesheet" media="screen" /> -->
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/padrao.css">
+	<link rel="stylesheet" href="css/leitor_online_capitulo.css">
+	<style>
+		body , html{
+			background-color: #350338;
+			display: flex;
+			flex-direction: column;
+		}
+	</style>
+</head>
+<body>
+	<header>
+        <div class="segura_menu">
+            <div id="header_logo">
+                <a href="index.html">
+                    <img src="img/logo tcc.png" alt="SKPF">
+                </a>
+            </div>
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="img/botao-de-menu-branco.png" alt="Menu">
+                </a>
+                <div id="myLinks">
+                    <nav>
+                        <div class="item_menu">
+                            <a href="projeto.html">  
+                                O Projeto
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="personagens.html">
+                                Personagens
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="ler_online.html">
+                                Ler Online
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="como_usar_realidade_aumentada.html">
+                                Como usar realidade aumentada
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="menu">
+                <nav>
+                    <div class="item_menu">
+                        <a href="projeto.html">  
+                            O Projeto
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="personagens.html">
+                            Personagens
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="ler_online.html">
+                            Ler Online
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="como_usar_realidade_aumentada.html">
+                            Como usar realidade aumentada
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="titulo">
+            <h1>Pesadelo nas profundezas - Capítulo Único</h1>
+            <p>Beatriz Oliveira - Ilustração </p>
+        </div>
+        <section id="paginas_manga">
+            <img src="img/pesadelo nas profundezas_ilustrações/capa.jpg" alt="capa">
+            <div class="dupla">
+                
+            </div>
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_0.jpg" alt="página 0">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_1.jpg" alt="página 01">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_2.jpg" alt="pagina 02">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_3.jpg" alt="página 03">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_4.jpg" alt="página 04">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_5.jpg" alt="pagina 05">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_6.jpg" alt="página 06">
+            <div class="dupla">
+                <img src="img/pesadelo nas profundezas_ilustrações/mapa.jpg" alt="mapa">
+            </div>
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_7.jpg" alt="página 07">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_8.jpg" alt="pagina 08">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_9.jpg" alt="página 09">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_10.jpg" alt="página 10">
+            <img src="img/pesadelo nas profundezas_ilustrações/segundo capitulo.jpg" alt="página 02">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_11.jpg" alt="pagina 11">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_12.jpg" alt="página 12">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_13.jpg" alt="página 13">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_14.jpg" alt="pagina 14">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_15.jpg" alt="página 15">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_16.jpg" alt="página 16">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_17.jpg" alt="pagina 17">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_18.jpg" alt="pagina 18">
+            <img src="img/pesadelo nas profundezas_ilustrações/pagina_19.jpg" alt="pagina 19">
+            </div>
+            
+        </section>
+    </main>
+
+	<!-- <div id="myPDF" style="margin: auto; display: flex; padding: 3rem 0"></div> -->
+
+	<footer id="footer_leitor_online_capitulo">
+        <p>TRABALHO DESENVOLVIDO POR ALUNOS DO SENAI BARUERI - 2023</p>
+    </footer>
+
+
+	<script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+    </script>
+</body>

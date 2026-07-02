@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesadelo nas profundezas - Personagens</title>
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/personagens.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="segura_menu">
+            <div id="header_logo">
+                <a href="index.html">
+                    <img src="img/logo tcc.png" alt="SKPF">
+                </a>
+            </div>
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="img/botao-de-menu.png" alt="Menu">
+                </a>
+                <div id="myLinks">
+                    <nav>
+                        <div class="item_menu">
+                            <a href="projeto.html">  
+                                O Projeto
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="personagens.html">
+                                Personagens
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="ler_online.html">
+                                Ler Online
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="como_usar_realidade_aumentada.html">
+                                Como usar realidade
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="menu">
+                <nav>
+                    <div class="item_menu">
+                        <a href="projeto.html">  
+                            O Projeto
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="personagens.html">
+                           Personagens
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="ler_online.html">
+                            Ler Online
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="como_usar_realidade_aumentada.html">
+                            Como usar realidade aumentada
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="titulo_pagina_personagens">
+            <h1> Personagens </h1>
+        </div>
+
+        <div id="info_personagens">
+            <div class="segura_info">
+                <h2>Clara</h2>
+                <div class="banner">
+                    <img src="img/clara.png" alt="banner clara">
+                </div>
+                <p>
+                   Os personagens do livro foram inspirados nos próprios autores. Clara representada pela autora Sarah 
+                   Sua cor: Cyan 
+
+                </p>
+            </div>
+            <div class="segura_info">
+                <h2>Maria</h2>
+                <div class="banner">
+                    <img src="img/maria.png" alt="banner maria">
+                </div>
+                <p>
+                Os personagens do livro foram inspirados nos próprios autores. Maria representada pela autora Karen
+                Sua cor: Magenta
+                </p>
+            </div>
+            <div class="segura_info">
+                <h2>João</h2>
+                <div class="banner">
+                    <img src="img/joão.png" alt="banner joão">
+                </div>
+                <p>
+                    Os personagens do livro foram inspirados nos próprios autores. João representado pelo autor Paulo
+                    Sua cor: Yellow
+                </p>
+            </div>
+
+            <div class="segura_info">
+                <h2>Pedro</h2>
+                <div class="banner">
+                    <img src="img/pedro.png" alt="banner pedro">
+                </div>
+                <p>
+                        Os personagens do livro foram inspirados nos próprios autores. Pedro representado pelo autor Felipe
+                        Sua cor: Black
+                </p>
+            </div>
+    </main>
+
+    <footer>
+        <p>TRABALHO DESENVOLVIDO POR ALUNOS DO SENAI BARUERI - 2023</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+    </script>
+    
+</body>
+</html>

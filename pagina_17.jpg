@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesadelo nas profundezas - Ler Online</title>
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/ler_online.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body id="body_ler_online">
+    <header>
+        <div class="segura_menu">
+            <div id="header_logo">
+                <a href="index.html">
+                    <img src="img/logo tcc.png" alt="SKPF">
+                </a>
+            </div>
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="img/botao-de-menu-branco.png" alt="Menu">
+                </a>
+                <div id="myLinks">
+                    <nav>
+                        <div class="item_menu">
+                            <a href="projeto.html">  
+                                O Projeto
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="personagens.html">
+                                Personagens
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="ler_online.html">
+                               Ler Online
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="como_usar_realidade_aumentada.html">
+                                Como usar realidade aumentada
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="menu">
+                <nav>
+                    <div class="item_menu">
+                        <a href="projeto.html">  
+                            O Projeto
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="personagens.html">
+                            Personagens
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="ler_onlines.html">
+                            Ler Online
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="como_usar_realidade_aumentada.html">
+                            Como usar realidade aumentada
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="segura_conteudo_lo">
+            <div id="capa_sinopse"> 
+                <div id="capa">
+                    <img src="img/mockup.jpg" alt="Capa da HQ">
+                </div>
+                <div> 
+                    <div id="texto">
+                        <h2>Pesadelo nas profundezas</h2>
+                        <p>
+                            A história do livro se passa em uma floresta onde 4 amigos vão acampar e contar histórias de terror, até que surge um ruído vindo da floresta acompanhada de um monstro marinho. Eles imediatamente correm pela floresta e caem em um portal que leva até um mundo completamente distorcido e sombrio, onde eles encontram um antigo livro contando como deter o tão tenebroso monstro..
+                        </p>
+                        <p>
+                            Quer saber o resultado desse embate? Você pode ler de graça 
+                            <a href="leitor_online_capitulo.html">
+                                aqui no site!
+                            </a>
+                        </p>  
+                    </div>
+                </div>
+            </div>
+            <div id="lista">
+                <h3>Lista de Capítulos:</h3>
+                <ul>
+                    <a href="leitor_online_capitulo.html"><li>1 - Capítulo Unico</li></a>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>TRABALHO DESENVOLVIDO POR ALUNOS DO SENAI BARUERI - 2023</p>
+    </footer>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "flex") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "flex";
+          }
+        }
+    </script>
+</body>
+</html>

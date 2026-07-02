@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesadelo nas profundezas - como usar realidade auementada</title>
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/personagens.css">
+    <link rel="stylesheet" href="css/como_usar_realidade_aumentada.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="segura_menu">
+            <div id="header_logo">
+                <a href="index.html">
+                    <img src="img/logo tcc.png" alt="SKPF">
+                </a>
+            </div>
+
+            <div class="topnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <img src="img/botao-de-menu.png" alt="Menu">
+                </a>
+                <div id="myLinks">
+                    <nav>
+                        <div class="item_menu">
+                            <a href="projeto.html">  
+                                O Projeto
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="ler_online.html">
+                                Personagens
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="personagens.html">
+                                Ler Online
+                            </a>
+                        </div>
+                        <div class="item_menu">
+                            <a href="como_montar_pipa.html">
+                                Como usar realidade aumentada
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div id="menu">
+                <nav>
+                    <div class="item_menu">
+                        <a href="projeto.html">  
+                            O Projeto
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="ler_online.html">
+                            Personagens
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="personagens.html">
+                            Ler Online
+                        </a>
+                    </div>
+                    <div class="item_menu">
+                        <a href="como_montar_pipa.html">
+                            Como usar realidade aumentada
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="titulo_pagina_personagens">
+            <h1> Como usar realidade aumentada </h1>
+        </div>
+
+           <h2> O que é realidade aumentada?</h2>
+        <p>
+            Realidade aumentada é uma tecnologia que combina elementos virtuais, como imagens, vídeos e objetos 3D,
+            com o ambiente real, permitindo uma interação imersiva entre o mundo real e o virtual.
+        </p>
+        <p>
+            Pensando na necessidade da leitura na vida das crianças e na tecnologia  no qual estão sendo "dominadas"
+            a ingressão da realidade aumentada dentro da leitura de uma curta história 
+            <p>
+                em quadrinhos seria essencial
+                para o incentivo da leitura nos mesmos.
+            </p>
+        </p>
+
+    </main>
+    <div class="passos">
+        <h2>Passo a passo</h2>
+        <ul>
+            <li>
+               1) Escanear QR CODE
+            </li>
+            <li>
+               2) Abrir com o instagram
+            </li>
+            <li>
+                3) Aguardar até o efeito carregar
+            </li>
+            <li>
+                4)  Com o efeito carregado, escanear a página do livro
+            </li>
+        </ul>
+    </div>
+
+        </ul>
+        <img class="img" src="img/PASSO A PASSO.jpg" alt="como usar realidade aumentada">
+    </div>
+
+
+
+    <div class="aviso">
+        <h3>Atenção!</h3>
+        <p>
+            Informações adicionais:
+        </p>
+        <p>Só terá acesso a realidade aumentada, quem possui a rede social instagram.</p>
+    
+    </div>
+</main>
+
+<footer>
+    <p>TRABALHO DESENVOLVIDO POR ALUNOS DO SENAI BARUERI - 2023</p>
+</footer>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+</script>
+
+</body>
+</html>
